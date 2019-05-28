@@ -1,0 +1,101 @@
+* {
+    background: #33CC99
+}
+
+.container {
+    padding: 20px;
+}
+
+.header {
+    width: 100%;
+    padding: 5px;
+    height: 10%;
+    background: #33CC99
+}
+
+.inputPicker {
+    padding: 30px;
+}
+
+.heading {
+    color: #05386B;
+    text-align: center
+}
+
+.container .inputPicker .country-input {
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.container .inputPicker label {
+    font-size: 1.5em;
+    color: #05386B;
+    line-height: 1.3em;
+    margin-left: 40%
+}
+
+.container .inputPicker .country-input:focus, .container .inputPicker .country-input:hover {
+    border: 2px solid #05386B;
+}
+
+.search-button {
+    padding: 15px;
+    border: none;
+    background: #fff;
+    color: #05386B;
+    position: relative;
+    left: 45%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-button:hover {
+    background: #05386B;
+    color: #fff;
+}
+
+.country-cards {
+    margin-top: 10%;
+}
+
+.card {
+    max-width: 700px;
+    min-height: 500px;
+    background: transparent;
+    padding: 20px;
+    margin-left: 30%
+}
+
+.flag {
+    width: 100%;
+    height: auto;
+}
+
+.country-name {
+    max-width: 770px;
+    min-height: 50px;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5em;
+    color: #05386B;
+    line-height: 1.3em;
+    background: #fff
+}
+
+.view-more {
+    background: #fff;
+    border: none;
+    color: #05386B;
+    cursor: pointer;
+    padding: 15px;
+    text-decoration: underline
+}
+
+.view-more:focus {
+    outline: none;
+}
+
